@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-panel,
+.right-panel {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #4047F0;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    border-radius: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.left-panel,
+.right-panel {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    background-color: #fff;
+}
+
+.left-panel h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4047F0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 24px rgba(10, 10, 10, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4047F0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-panel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.id-card-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #ff311;
+}
+
+.photo-container {
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    background-color: #f1f1f1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.student-info {
+    flex-grow: 1;
+}
+
+.student-info h2 {
+    margin: 10;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4047F0;
+    padding: 0;
+}
+
+.student-info p {
+    margin: 120;
+    font-size: 14px;
+    color: #0010;
+    padding: 10;
+}
+
+#photoName {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.left-panel {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.left-panel h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 60%;
+    padding: 15px;
+    border-radius: 70px;
+    border: none;
+    background-color: #;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #;
+    border: none;
+    border-radius: 55px;
+    color: #;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#idCard {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.photo {
+    width: 170px;
+    height: 170px;
+    background-color: #f1f1f1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.student-info {
+    text-align: center right;
+}
+
+.student-info h2 {
+    margin: 50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.student-info p {
+    margin: 50;
+    font-size: 14px;
+    color: #000;
+}

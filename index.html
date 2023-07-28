@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student ID Card Generator</title>
+    <link rel="stylesheet" href="ss/style.css">
+</head>
+
+<body>
+    <h1 class="header">ID CARD GENERATOR</h1>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Enter Student Details</h2>
+            <form id="idCardForm">
+                <div class="form-group">
+                    <label for="name">Enter Full Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter college name </label>
+                    <input type="text" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentId">Enter Student ID:</label>
+                    <input type="text" id="studentId" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Enter course</label>
+                    <input type="text" id="course" required>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Enter Student's Photo:</label>
+                    <input type="file" id="photo" accept="image/*" required>
+                    <p id="photoName"></p>
+                </div>
+                <button type="submit">Generate Card</button>
+            </form>
+        </div>
+        <div class="right-panel">
+            <div class="id-card-container">
+                <div class="photo-container">
+                    <div class="photo" id="idCardPhoto"></div>
+                </div>
+                <div class="student-info">
+                    <h2 id="idCardName"></h2>
+                    <p id="idCardEmail"></p>
+                    <p id="idCardStudentId"></p>
+                    <p id="idCardCourse"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="ss/script.js"></script>
+</body>
+
+</html>
